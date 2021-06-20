@@ -24,7 +24,7 @@ jobs:
       - run: echo "Helloooooo"
 
 workflows:
-  version: 2
+  version: 2.1
   build_test_and_lint:
     jobs:
       - build
